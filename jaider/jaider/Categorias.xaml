@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jaider.Categorias">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition >
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Categorias" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
+                <Frame Grid.Column="0" Grid.Row="0">
+                    <StackLayout >
+                        <ImageButton Source="celulares" ></ImageButton>
+                        <Label Text="Celulares" ></Label>
+                    </StackLayout>
+                   
+                    
+                </Frame>
+
+                <Frame Grid.Column="1" Grid.Row="0" >
+                    <StackLayout >
+                        <ImageButton  Source="accesorios" ></ImageButton>
+                        <Label Text="Accesorios" ></Label>
+                    </StackLayout>
+                </Frame>
+                
+                
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jaider.MainPage">
+
+    <StackLayout x:Name="color">
+        <Button x:Name="opciones" Text="Menu" Clicked="opciones_Clicked" ></Button>
+    </StackLayout>
+
+</ContentPage>
+
